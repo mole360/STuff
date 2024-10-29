@@ -29,13 +29,13 @@ class Rectangle implements Shape {
     }
 }
 class Square implements Shape {
-    private double width;
+    private double width1;
     public Square(double width) {
-        this.width = width;
+        this.width1 = width;
     }
     @Override
     public void getAtributes() {
-        System.out.println("Square: width is " + width + ".");
-        System.out.println("Square: area is " + width * width + ".");
+        System.out.println("Square: width is " + width1 + ".");
+        System.out.println("Square: area is " + width1 * width1 + ".");
     }
 }
